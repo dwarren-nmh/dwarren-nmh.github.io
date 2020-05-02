@@ -16,3 +16,4 @@ This will be the "thing" in our "internet of things" device. We will use this li
 The STEMMA Soil Sensor is a capacitive moisture sensor. It uses capicitance to measure the amount of moisture in the soil, which is different from the resistive measurement of other probes. This sensor will be more durable and more accurate over time, but we'll need to talk about how to use it. It's a sensitive device, pun intended.
 
 # Tutorials
+[Getting Started with M5Stick C](/getting-started-m5stick)

@@ -31,9 +31,9 @@ while(True):
   try:
     response = urequests.request(
       method='POST',
-      url='http://io.adafruit.com/api/v2/dwarrenku/feeds/moisture/data',
+      url='http://io.adafruit.com/api/v2/****your user name****/feeds/****your feed name****/data',
       json={'value':moisture},
-      headers={'Content-Type':'application/json','X-AIO-Key':'aio_RBra35LUtbXS5JrNDYtSjdkBaKTO'}
+      headers={'Content-Type':'application/json','X-AIO-Key':'****your api key****'}
     )
     if response.status_code == 200:
       led.duty(99)
