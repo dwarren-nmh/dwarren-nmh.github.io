@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Making Things Together
+## Plantometer (or how to not kill a plant)
 
-You can use the [editor on GitHub](https://github.com/dwarren-nmh/dwarren-nmh.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+With a microcontroller, a few lines of python, and a capacitive soil moisture sensor, we can create a tool to help us remember to water our plant. Not only will we create an IoT (internet of things) device, but we'll also learn some things about computer science and the internet along the way.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 1. [M5Stick C](https://m5stack.com/collections/m5-core/products/stick-c)
+![M5Stick C](./documentation/img/M5Stick.png)
 
-### Markdown
+The M5Stick C is a little computer. Built around an [esp32](http://esp32.net/), the M5Stick C has a 2 core procesor that can run up to 240MHz. With this we can get input values from sensors and other devices, and create outputs as well. It has a little 80x160 pixel screen, LED, battery, gyroscope and a microphone all in one tiny package. Even better, it has the ability to connect to a wifi network and communicate with other computers on the internet.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This will be the "thing" in our "internet of things" device. We will use this little computer to communicate with the soil sensor, connect to a wifi network, and then send the data to a server. We'll also use the screen to create a nice visual that shows us the information in real time.
 
-```markdown
-Syntax highlighted code block
+### 2. [Adafruit STEMMA Soil Sensor](https://www.adafruit.com/product/4026)
+![Stemma soil sensor](./documentation/img/stemmasoilsensor.png)
 
-# Header 1
-## Header 2
-### Header 3
+The STEMMA Soil Sensor is a capacitive moisture sensor. It uses capicitance to measure the amount of moisture in the soil, which is different from the resistive measurement of other probes. This sensor will be more durable and more accurate over time, but we'll need to talk about how to use it. It's a sensitive device, pun intended.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dwarren-nmh/dwarren-nmh.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Tutorials
