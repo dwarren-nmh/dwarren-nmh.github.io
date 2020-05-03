@@ -1,8 +1,11 @@
-# Making Things Together - Plantometer
+---
+layout: page
+title: "Malking Things Together - Plantometer"
+---
 
 With a microcontroller, a few lines of python, and a capacitive soil moisture sensor, we can create a tool to help us remember to water our plant. Not only will we create an IoT (internet of things) device, but we'll also learn some things about computer science and the internet along the way.
 
-## What we need:
+## What you'll need
 
 ### [M5Stick C](https://m5stack.com/collections/m5-core/products/stick-c)
 
@@ -20,7 +23,7 @@ The STEMMA Soil Sensor is a capacitive moisture sensor. It uses capicitance to m
 
 ## Tutorials
 
-### 1. [Getting Started with M5Stick C](/getting-started-m5stick)
+### 1. [Getting Started with M5Stick C](docs/getting-started-m5stick)
 
 - What's what on the M5Stick
 - What we need to install to program it
