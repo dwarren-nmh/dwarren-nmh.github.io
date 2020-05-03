@@ -40,3 +40,5 @@ Work through using the various python modules to draw things on the screen. This
 ### 4. Working with Micropython
 
 ### 5. Connecting the Soil Sensor
+
+### 6. Making REST API calls to Adafruit IO

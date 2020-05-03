@@ -44,3 +44,9 @@ Since the M5Stick C is based on an esp32, it can be programmed in many different
 ## First run
 
 First, check out [M5Stack's quick start](https://docs.m5stack.com/#/en/quick_start/m5stickc/m5stickc_quick_start_with_uiflow). We'll be using UIFlow, which is their way of programming their board based on micropython. They have a well documented process for installing UIFlow onto the M5Stick for both Windows and Mac. When you select the version choose `1.4.5.1`. When you are installing, you will also be able to give the M5Stick your wifi's name and password. This is important, since we will be able to upload code through their web-based programming environment if we need to.
+
+## Video Walkthrough:
+
+If you'd rather watch video tutorials (like me), check it out below:
+
+[![Video Tutorial](../img/m5stick-quick-start-thm.png)](https://drive.google.com/open?id=1FM3L-Qma6ZYH8ecTyzrd0c0UOYYVbPsm)
