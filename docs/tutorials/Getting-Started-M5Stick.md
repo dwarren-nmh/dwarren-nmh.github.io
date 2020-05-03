@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Getting Started with M5Stick C"
+categories: Tutorials
 ---
 
 ![M5Stick](../img/m5stickcinfo.jpg)
