@@ -7,7 +7,7 @@ from m5ui import *
 # If fillcolor is given, filled arc will be drawn.
 #lcd.arc(x, y, r, thick, strat, end [,color, fillcolor])
 
-def display(level):
+def showdata(level):
   lcd.print("moisture", lcd.CENTER, 10)
   lcd.print("level :", lcd.CENTER, 30)
   lcd.print(level, lcd.CENTER, 60)

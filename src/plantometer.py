@@ -2,7 +2,7 @@ from m5stack import *
 from m5ui import *
 from uiflow import *
 from machine import *
-from apps import test
+from apps import display
 import network, urequests, esp32, wifiCfg, i2c_bus, ustruct, gc
 gc.enable()
 
@@ -25,15 +25,15 @@ while(True):
   wait(1)
   lcd.clear()
 
-  test.display(get_moisture())
+  display.showdata(get_moisture())
 
   moisture = get_moisture() #get moisture
   try:
     response = urequests.request(
       method='POST',
-      url='http://io.adafruit.com/api/v2/****your user name****/feeds/****your feed name****/data',
+      url='http://io.adafruit.com/api/v2/dwarrenku/feeds/moisture/data',
       json={'value':moisture},
-      headers={'Content-Type':'application/json','X-AIO-Key':'****your api key****'}
+      headers={'Content-Type':'application/json','X-AIO-Key':'aio_NFup883jK6FQ22XvUHRnJ4kiubT4'}
     )
     if response.status_code == 200:
       led.duty(99)
