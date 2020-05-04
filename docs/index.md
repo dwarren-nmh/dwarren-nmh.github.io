@@ -23,7 +23,7 @@ The STEMMA Soil Sensor is a capacitive moisture sensor. It uses capicitance to m
 
 ## Tutorials
 
-### 1. [Getting Started with M5Stick C](tutorials/Getting-Started-M5Stick/)
+### 1. [Getting Started with M5Stick C](tutorials/Getting-Started-M5Stick)
 
 - What's what on the M5Stick
 - What we need to install to program it
