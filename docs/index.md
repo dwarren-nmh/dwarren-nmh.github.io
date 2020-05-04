@@ -29,7 +29,7 @@ The STEMMA Soil Sensor is a capacitive moisture sensor. It uses capicitance to m
 - What we need to install to program it
 - Making our first program
 
-### 2. Blink and Fade the LED
+### 2. [Blink and Fade the LED](tutorials/Blink)
 
 Control the LED with loops and the GPIO (General Purpose Input/Output) of the esp32
 
