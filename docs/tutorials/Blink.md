@@ -16,9 +16,9 @@ As an easy way to get started coding in UIFlow, we'll start by blinking and fadi
 
 ![LED](../img/LED.png)
 
-LED stands for Light Emitting Diode. The LED is a diode, which menas it only allows electricity to flow in one direction. When electricity flows in the correct direction, it emits light.
+LED stands for Light Emitting Diode. The LED is a diode, which means it only allows electricity to flow in one direction. When electricity flows in the correct direction, it emits light.
 
-Luckily, the M5Stack C has an LED built in. The LED's anode (positive end) is connected to **Pin 10** of the microcontroller, and the cathod (negative end) is connected to ground.
+Luckily, the M5Stack C has an LED built in. The LED's anode (positive end) is connected to **Pin 10** of the microcontroller, and the cathode (negative end) is connected to ground.
 
 We'll start with a simple script that will turn the LED on and off in a loop:
 

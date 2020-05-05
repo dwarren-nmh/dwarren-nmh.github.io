@@ -10,7 +10,7 @@ The M5Stick C has a number of features built in to a small package. This is help
 
 ## Features of the M5Stick C
 
-### 1. Turning it on/off/reseting
+### 1. Turning it on/off/resetting
 
 To turn the M5Stick C on, you push the button on the bottom left when the screen is facing you.
 
