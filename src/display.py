@@ -3,9 +3,9 @@ from uiflow import *
 from m5ui import *
 
 # Draw the arc with center at (x,y) and radius r, starting at angle start and ending at angle end
-# The thicknes of the arc outline is set by the thick argument
+# The thickness of the arc outline is set by the thick argument
 # If fillcolor is given, filled arc will be drawn.
-#lcd.arc(x, y, r, thick, strat, end [,color, fillcolor])
+#lcd.arc(x, y, r, thick, start, end [,color, fillcolor])
 
 def showdata(level):
   lcd.print("moisture", lcd.CENTER, 10)

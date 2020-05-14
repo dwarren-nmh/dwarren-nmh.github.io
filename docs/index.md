@@ -33,7 +33,7 @@ The STEMMA Soil Sensor is a capacitive moisture sensor. It uses capacitance to m
 
 Control the LED with loops and the GPIO (General Purpose Input/Output) of the esp32
 
-### 3. Use to the Screen
+### 3. [Use to the Screen](tutorials/Display)
 
 Work through using the various python modules to draw things on the screen. This is how we will make our animation
 
